@@ -46,25 +46,24 @@ public class ThreadTest {
 //        System.out.println("this is sys");
 //
 //
-//        Thread t = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//
-//            }
-//        });
-//
-//        try {
-//
-//
-//            Thread.sleep(1);
-//
-//            t.wait();
-//
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//
-//        t.start();
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
+
+        try {
+
+
+            Thread.sleep(1);
+
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        t.start();
     }
 
 }
